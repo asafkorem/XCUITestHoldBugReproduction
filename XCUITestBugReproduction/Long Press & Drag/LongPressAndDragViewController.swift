@@ -95,7 +95,7 @@ class LongPressAndDragViewController: UIViewController {
 
     if (longPressAndDragButton.frame.intersects(makeHoldArea())) {
       if Self.holdStartDate == nil {
-        label.text = "Hold"
+        label.text = "Hold 1 second"
         Self.holdStartDate = Date.now
       } else if (abs(Self.holdStartDate!.timeIntervalSinceNow) > 1) {
         // After hold for 1 second...

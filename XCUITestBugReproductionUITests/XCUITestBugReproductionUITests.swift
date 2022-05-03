@@ -23,7 +23,7 @@ class XCUITestBugReproductionUITests: XCTestCase {
     button.press(forDuration: 1, thenDragTo: label, withVelocity: .default, thenHoldForDuration: 2)
 
     // The following assertion fails with the message:
-    // XCTAssertEqual failed: ("Hold") is not equal to ("Success!")
+    // XCTAssertEqual failed: ("Hold 1 second") is not equal to ("Success!")
     XCTAssertEqual(label.label, "Success!")
   }
 }
