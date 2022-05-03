@@ -17,7 +17,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYt-ZA-MM8">
                                 <rect key="frame" x="175" y="370" width="67" height="31"/>
-                                <accessibility key="accessibilityConfiguration" identifier="longPressAndDragButton"/>
+                                <accessibility key="accessibilityConfiguration" identifier="button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="8P9-hL-BcM"/>
                                     <constraint firstAttribute="width" secondItem="UYt-ZA-MM8" secondAttribute="height" multiplier="5:2" id="hZb-Yh-frR"/>
@@ -27,7 +27,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Long press the button" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PE-LA-XMb">
                                 <rect key="frame" x="123.5" y="64" width="167.5" height="21"/>
-                                <accessibility key="accessibilityConfiguration" identifier="resultLabel"/>
+                                <accessibility key="accessibilityConfiguration" identifier="label"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>

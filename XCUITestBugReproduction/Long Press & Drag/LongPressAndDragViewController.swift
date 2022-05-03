@@ -90,11 +90,7 @@ class LongPressAndDragViewController: UIViewController {
 
     if (sender.state == .ended) {
       label.text = "Drag here and hold"
-
-      UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseIn) {
-        self.longPressAndDragButton!.center = self.view.center
-      }
-      return
+      Self.holdStartDate = nil
     }
 
     if (longPressAndDragButton.frame.intersects(makeHoldArea())) {
