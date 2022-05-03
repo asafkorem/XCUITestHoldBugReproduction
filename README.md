@@ -20,11 +20,9 @@ When using the above API with a non-zero `holdDuration` value, there is no effec
 
 #### The Expected Behaviour
 
-This is when I'm dragging my element **manually**:
+This is when I'm dragging my element **manually** (works as expected, the label changes its value to "Success!"):
 
 https://user-images.githubusercontent.com/55082339/166443733-406ef4b0-958a-46bd-af64-27b3737351d0.mp4
-
-As expected, the label changes its value to "Success!".
 
 Download from here: [Video.mp4](Video.mp4)
 
