@@ -48,7 +48,7 @@ func testLongPressDragAndHold() throws {
 }
 ```
 
-Results with an assertion error (`XCTAssertEqual failed: ("Hold 1 second") is not equal to ("Success!")`). 
+Results with an assertion error (`XCTAssertEqual failed: ("Hold 1 second") is not equal to ("Success!")`) when running on iPhone Simulator. 
 
 Visually, this happens:
 
