@@ -13,19 +13,11 @@
 		60BF53022821236000610DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF53002821236000610DBD /* Main.storyboard */; };
 		60BF53042821236200610DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BF53032821236200610DBD /* Assets.xcassets */; };
 		60BF53072821236200610DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF53052821236200610DBD /* LaunchScreen.storyboard */; };
-		60BF53122821236200610DBD /* XCUITestBugReproductionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF53112821236200610DBD /* XCUITestBugReproductionTests.swift */; };
 		60BF531C2821236200610DBD /* XCUITestBugReproductionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF531B2821236200610DBD /* XCUITestBugReproductionUITests.swift */; };
 		60BF531E2821236200610DBD /* XCUITestBugReproductionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF531D2821236200610DBD /* XCUITestBugReproductionUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		60BF530E2821236200610DBD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 60BF52EF2821236000610DBD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60BF52F62821236000610DBD;
-			remoteInfo = XCUITestBugReproduction;
-		};
 		60BF53182821236200610DBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60BF52EF2821236000610DBD /* Project object */;
@@ -44,8 +36,6 @@
 		60BF53032821236200610DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60BF53062821236200610DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60BF53082821236200610DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60BF530D2821236200610DBD /* XCUITestBugReproductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestBugReproductionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60BF53112821236200610DBD /* XCUITestBugReproductionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBugReproductionTests.swift; sourceTree = "<group>"; };
 		60BF53172821236200610DBD /* XCUITestBugReproductionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestBugReproductionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BF531B2821236200610DBD /* XCUITestBugReproductionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBugReproductionUITests.swift; sourceTree = "<group>"; };
 		60BF531D2821236200610DBD /* XCUITestBugReproductionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBugReproductionUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -53,13 +43,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		60BF52F42821236000610DBD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60BF530A2821236200610DBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				60BF52F92821236000610DBD /* XCUITestBugReproduction */,
-				60BF53102821236200610DBD /* XCUITestBugReproductionTests */,
 				60BF531A2821236200610DBD /* XCUITestBugReproductionUITests */,
 				60BF52F82821236000610DBD /* Products */,
 			);
@@ -90,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				60BF52F72821236000610DBD /* XCUITestBugReproduction.app */,
-				60BF530D2821236200610DBD /* XCUITestBugReproductionTests.xctest */,
 				60BF53172821236200610DBD /* XCUITestBugReproductionUITests.xctest */,
 			);
 			name = Products;
@@ -108,14 +89,6 @@
 				60BF53082821236200610DBD /* Info.plist */,
 			);
 			path = XCUITestBugReproduction;
-			sourceTree = "<group>";
-		};
-		60BF53102821236200610DBD /* XCUITestBugReproductionTests */ = {
-			isa = PBXGroup;
-			children = (
-				60BF53112821236200610DBD /* XCUITestBugReproductionTests.swift */,
-			);
-			path = XCUITestBugReproductionTests;
 			sourceTree = "<group>";
 		};
 		60BF531A2821236200610DBD /* XCUITestBugReproductionUITests */ = {
@@ -146,24 +119,6 @@
 			productName = XCUITestBugReproduction;
 			productReference = 60BF52F72821236000610DBD /* XCUITestBugReproduction.app */;
 			productType = "com.apple.product-type.application";
-		};
-		60BF530C2821236200610DBD /* XCUITestBugReproductionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60BF53242821236200610DBD /* Build configuration list for PBXNativeTarget "XCUITestBugReproductionTests" */;
-			buildPhases = (
-				60BF53092821236200610DBD /* Sources */,
-				60BF530A2821236200610DBD /* Frameworks */,
-				60BF530B2821236200610DBD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				60BF530F2821236200610DBD /* PBXTargetDependency */,
-			);
-			name = XCUITestBugReproductionTests;
-			productName = XCUITestBugReproductionTests;
-			productReference = 60BF530D2821236200610DBD /* XCUITestBugReproductionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		60BF53162821236200610DBD /* XCUITestBugReproductionUITests */ = {
 			isa = PBXNativeTarget;
@@ -196,10 +151,6 @@
 					60BF52F62821236000610DBD = {
 						CreatedOnToolsVersion = 13.2;
 					};
-					60BF530C2821236200610DBD = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 60BF52F62821236000610DBD;
-					};
 					60BF53162821236200610DBD = {
 						CreatedOnToolsVersion = 13.2;
 						TestTargetID = 60BF52F62821236000610DBD;
@@ -220,7 +171,6 @@
 			projectRoot = "";
 			targets = (
 				60BF52F62821236000610DBD /* XCUITestBugReproduction */,
-				60BF530C2821236200610DBD /* XCUITestBugReproductionTests */,
 				60BF53162821236200610DBD /* XCUITestBugReproductionUITests */,
 			);
 		};
@@ -234,13 +184,6 @@
 				60BF53072821236200610DBD /* LaunchScreen.storyboard in Resources */,
 				60BF53042821236200610DBD /* Assets.xcassets in Resources */,
 				60BF53022821236000610DBD /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60BF530B2821236200610DBD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,14 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60BF53092821236200610DBD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60BF53122821236200610DBD /* XCUITestBugReproductionTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		60BF53132821236200610DBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,11 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		60BF530F2821236200610DBD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60BF52F62821236000610DBD /* XCUITestBugReproduction */;
-			targetProxy = 60BF530E2821236200610DBD /* PBXContainerItemProxy */;
-		};
 		60BF53192821236200610DBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 60BF52F62821236000610DBD /* XCUITestBugReproduction */;
@@ -486,44 +416,6 @@
 			};
 			name = Release;
 		};
-		60BF53252821236200610DBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asafkorem.XCUITestBugReproductionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCUITestBugReproduction.app/XCUITestBugReproduction";
-			};
-			name = Debug;
-		};
-		60BF53262821236200610DBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asafkorem.XCUITestBugReproductionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCUITestBugReproduction.app/XCUITestBugReproduction";
-			};
-			name = Release;
-		};
 		60BF53282821236200610DBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -575,15 +467,6 @@
 			buildConfigurations = (
 				60BF53222821236200610DBD /* Debug */,
 				60BF53232821236200610DBD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		60BF53242821236200610DBD /* Build configuration list for PBXNativeTarget "XCUITestBugReproductionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60BF53252821236200610DBD /* Debug */,
-				60BF53262821236200610DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
